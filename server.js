@@ -12,7 +12,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Willkommen zur Sprachtrainer App API!');
+    res.send('Welcome to the Sprachtrainer App API!');
 });
 
 app.listen(PORT, () => {
